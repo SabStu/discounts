@@ -20,11 +20,14 @@ namespace Sabio.Models.Requests.Discount
         public string Title { get; set; }
 
         public string Description { get; set; }
-
+        
+        [Required]
         public float Percentage { get; set; }
-
+        
+        [Requied]
         public DateTime ValidFrom { get; set; }
-
+        
+        [Required]
         public DateTime ValidUntil { get; set; }
 
         [Required]
